@@ -1,12 +1,12 @@
-#MartinGUI
+# MartinGUI
 
 Based on the thought of [FishGUI](http://product.dangdang.com/1024374277.html), MartinGUI is using Python
 
 Program based on MartinGUI: Code once, Run anywhere
 
-##Steps
+## Steps
 
-###1. Requirement
+### 1. Requirement
 
 define what we need to do
 
@@ -35,7 +35,7 @@ define what we need to do
 | Restriction | Mouse can only control the active Window<br />Windows back cannot be move to the front<br />Windows below can get timer message to make animation active<br />Window level is limited to 3 |
 | Non-functional Requirement | Can be secondary development<br />Can be used in deferent system which has Python installed<br />The speed should be acceptable|
 
-###2.Analyze Use Case 
+### 2.Analyze Use Case 
 
 * Decide System Boundary 
 * Decide participants
@@ -44,7 +44,7 @@ define what we need to do
 * Describe each case in words
 * Draw a Object Flowchart
 
-```mermaid
+``` mermaid
 graph LR
 A[User] --Computer--> B[Application]
 B --> C[MartinGUI framework]
@@ -53,7 +53,7 @@ C --> E[Graphic Panel]
 ```
 Figure 1. System Boundary
 
-```mermaid
+``` mermaid
 graph LR
 A((User)) --> B((Boot System))
 A --> C((Choose 400))
@@ -83,7 +83,7 @@ Describe Use Case:
 		* Create a main window in screen
 		* Create controls on main window
 
-```mermaid
+``` mermaid
 sequenceDiagram
 participant User
 participant OS
@@ -99,7 +99,7 @@ note right of OS: repeat to check digit button
 
 Figure 3. Sequence Diagram of Input Words
 
-```mermaid
+``` mermaid
 sequenceDiagram
 participant User
 participant OS
@@ -116,7 +116,7 @@ end
 Figure 4. Create Animation
 
 
-##Design method
+## Design method
 High cohesion and low coupling ensuring these probabilities: 
 1. readability 
 2. reusability 
