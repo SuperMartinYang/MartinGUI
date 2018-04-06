@@ -129,7 +129,7 @@ Generalization is the inverse of inheritance
 Parent Class & Child Class <-> SuperClass & SubClass <-> BaseClass & DerivedClass
 
 ### Principles
-开闭原则:一个模块对扩展应是开放的，对修改应是关闭的 
+开闭原则:一个模块对扩展应是开放的，对修改应是关闭的
 完全替换原则:派生类应该能完全替换掉基类
 依赖倒置原则:依赖于抽象，而不要依赖于具象
 非循环依赖、原则:包和包之间不能有循环依赖、关系
