@@ -128,7 +128,7 @@ Encapsulation(properties and methods), inheritance, and polymorphism(same method
 Generalization is the inverse of inheritance
 Parent Class & Child Class <-> SuperClass & SubClass <-> BaseClass & DerivedClass
 
-### Principles:
+### Principles
 开闭原则:一个模块对扩展应是开放的，对修改应是关闭的 
 完全替换原则:派生类应该能完全替换掉基类
 依赖倒置原则:依赖于抽象，而不要依赖于具象
@@ -137,14 +137,15 @@ Parent Class & Child Class <-> SuperClass & SubClass <-> BaseClass & DerivedClas
 不要重复自己:任何代码都只出现一次
 保持简化的设计
 为人写代码，而不是为机器写代码
-### Steps of OO development:
+
+### Steps of OO development
 OO analysis
 structure analysis
 OO design
 Programming (libraries & framework: system [.NET, MFC], middleware [EJB], industry, white-box, black-box)
 Testing
 
-### s/w life cycle model:
+### s/w life cycle model
 waterfall model
 Iterative model
 
@@ -154,6 +155,7 @@ Iterative model
 1. Adapt to the change of requirement
 1. For interface programming, not for programming
 1. Use aggregation (interface) first rather than inheritation (class)
+
 ### Classification: 
 Based on Purpose:
 * Creational: encapsulate the process of creating Object
